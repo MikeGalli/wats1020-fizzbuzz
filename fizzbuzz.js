@@ -5,7 +5,7 @@ var outputText = "";            //outputText = nothing. That makes it a string. 
 
 function fizzy(x) {               //Make a function. Put everything up to line 20 in the function.
   for (var i = 1; i < 21; i++){  // Do the stuff below while i is between 1 & 20.
-
+      outputText += '<br>';
       if (i % 3 !== 0 && i % 5 !== 0) { //If value of i is NOT divisable by 3 AND NOT divisible by 5...
          outputText += i;            // Store the value of i in outputText.
      }
