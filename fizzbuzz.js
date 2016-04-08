@@ -21,3 +21,4 @@ function fizzy(x) {               //Make a function. Put everything up to line 2
 
 fizzy (outputText);             // Call for the function from line 6-20.
 document.write (outputText);  //Show me everything that's been stored in outputText.
+console.log(outputText);
